@@ -1,0 +1,24 @@
+# SEO-friendly keyword redirects → your real products page
+
+/buy-mamra-online            /products                     301
+/buy-jaggery-online          /products                     301
+/buy-poha-online             /products                     301
+
+/best-mamra-in-india         /products                     301
+/best-poha-in-gujarat        /products                     301
+/best-jaggery-near-me        /products                     301
+
+/mamra                       /products                     301
+/poha                        /products                     301
+/jaggery                     /products                     301
+
+/mamra-in-india              /products                     301
+/poha-in-india               /products                     301
+/jaggery-in-india            /products                     301
+
+/mamra-in-gujarat            /products                     301
+/poha-in-gujarat             /products                     301
+/jaggery-in-gujarat          /products                     301
+
+# Fallback: SPA support or generic route catch-all
+/*                           /index.html                   200
