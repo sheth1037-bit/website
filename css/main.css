@@ -673,7 +673,7 @@ main {
     bottom: 0;
     left: 50%;
     width: 4px;
-    background: #fddb1a;
+    background: #e5e2df;
     transform: translateX(-50%);
 }
 
@@ -698,7 +698,7 @@ main {
 .timeline-content {
     background-color: #293855;
     color: #ffffff;
-    border-left: 4px solid #FFD700;
+    border-left: 4px solid #fff4e9;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.548);
@@ -741,7 +741,7 @@ main {
     }
 
     .timeline-content {
-        border-left: 4px solid #FFD700;
+        border-left: 4px solid #fff4e9;
         border-top: none; 
     }
 }
