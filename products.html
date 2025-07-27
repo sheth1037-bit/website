@@ -4,17 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Products</title>
+    <title>Our Products | Parmanand Sheth & Co.</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <!-- <link rel="stylesheet" href="css/productcss.css"> -->
-    <link rel="icon" href="images/logo.webp">
+    <link rel="icon" href="images/Parmanand Sheth & Co. logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 
 <body style="background-color: #ffffff;">
@@ -22,14 +21,16 @@
    <!-- Navbar Section -->
    <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
     <div class="container">
-        <img src="images/logo.webp" alt="Heerakfood" style="height:65px;">
-
+        <div class="navbar-logo">
+            <span class="fw-bold fs-3 fs-md-1">Parmanand Sheth & Co.</span>
+            <span class="fst-italic text-secondary fs-6 fs-md-5">Homoeopathic Stockist</span>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
                 <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -41,12 +42,12 @@
     <!-- Hero Section -->
     <div class="hero-section mt-5">
         <h1 class="hero-title mt-5">
-            <span class="brand-highlight-gradient">Heerak Food</span><br>
-            <span class="hero-tagline">Premium Quality Products</span>
+            <span class="brand-highlight-gradient">Parmanand Sheth & Co.</span><br>
+            <span class="hero-tagline">Premium Homeopathic Products</span>
         </h1>
         <p class="hero-subtitle">
-            We specialize in delivering high-quality Mamra, Poha, and Jaggery. Available in multiple packing options tailored to your needs.
-Explore our premium range of products
+            Discover our comprehensive range of high-quality homeopathic medicines, dilutions, tablets, drops, and ointments. 
+            Trusted by healthcare professionals and individuals for over 50 years.
         </p>
     </div>
 
@@ -54,25 +55,26 @@ Explore our premium range of products
     <div class="container">
         <div class="category-filter">
             <button class="filter-btn active" data-category="all">All Products</button>
-            <button class="filter-btn" data-category="mamra">Mamra</button>
-            <button class="filter-btn" data-category="poha">Poha</button>
-            <button class="filter-btn" data-category="jaggery">Jaggery</button>
+            <button class="filter-btn" data-category="drops">Drops</button>
+            <button class="filter-btn" data-category="tablets">Tablets</button>
+            <button class="filter-btn" data-category="ointment">Ointments</button>
+            <button class="filter-btn" data-category="dilution">Dilutions</button>
         </div>
     </div>
 
     <!-- Products Grid -->
     <div class="container mb-5">
         <div class="products-grid" id="productsGrid">
-            <!-- Mamra Products -->
-            <div class="product-cardnn" data-category="mamra">
-                <img src="images/Heerak Sathi Mamra.webp" alt="Sathi Mamra 250g" class="product-image bg-mamra-orange">
+            <!-- Drops Products -->
+            <div class="product-cardnn" data-category="drops">
+                <img src="images/C1/C1/A-DROPS.jpg" alt="A-Drops" class="product-image">
                 <div class="product-content">
-                    <div class="product-category">Mamra</div>
-                    <h3 class="product-title">Sathi Mamra 250g</h3>
-                    <p class="product-description">Premium quality puffed rice with authentic taste and crispy texture. Perfect for making bhel puri and other snacks.</p>
+                    <div class="product-category">Drops</div>
+                    <h3 class="product-title">A-Drops</h3>
+                    <p class="product-description">Homeopathic drops for general wellness and vitality. Supports overall health and well-being.</p>
                     <div class="product-features">
-                        <span class="feature-tag">Crispy</span>
-                        <span class="feature-tag">Fresh</span>
+                        <span class="feature-tag">Wellness</span>
+                        <span class="feature-tag">Vitality</span>
                         <span class="feature-tag">Natural</span>
                     </div>
                     <div class="product-actions">
@@ -87,187 +89,17 @@ Explore our premium range of products
                     </div>
                 </div>
             </div>
-            
-            
-                        <div class="product-cardnn" data-category="mamra">
-                            <img src="images/Heerak Basmati Mamra.webp" alt="Basmati Mamra 250g" class="product-image bg-poha-blue">
-                            <div class="product-content">
-                                <div class="product-category">Mamra</div>
-                                <h3 class="product-title">Basmati Mamra 250g</h3>
-                                <p class="product-description">Premium basmati rice puffed to perfection with aromatic fragrance and delicate texture.</p>
-                                <div class="product-features">
-                                    <span class="feature-tag">Aromatic</span>
-                                    <span class="feature-tag">Premium</span>
-                                    <span class="feature-tag">Basmati</span>
-                                </div>
-                                <div class="product-actions">
-                                    <div class="product-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <span>(4.8)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="product-cardnn" data-category="mamra">
-                            <img src="images/Heerak Kolhapuri Mamra.webp" alt="Kolhapuri Mamra 250g" class="product-image bg-mamra-green">
-                            <div class="product-content">
-                                <div class="product-category">Mamra</div>
-                                <h3 class="product-title">Kolhapuri Mamra 250g</h3>
-                                <p class="product-description">Authentic Kolhapuri style puffed rice with traditional taste and superior quality.</p>
-                                <div class="product-features">
-                                    <span class="feature-tag">Authentic</span>
-                                    <span class="feature-tag">Traditional</span>
-                                    <span class="feature-tag">Kolhapuri</span>
-                                </div>
-                                <div class="product-actions">
-                                    <div class="product-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <span>(4.7)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-cardnn" data-category="mamra">
-                            <img src="images/Heerak Special Sathi Mamra 500g.webp" alt="Sathi Mamra 500g" class="product-image bg-mamra-orange">
-                            <div class="product-content">
-                                <div class="product-category">Mamra</div>
-                                <h3 class="product-title">Sathi Mamra 500g</h3>
-                                <p class="product-description">Family pack of premium puffed rice. Ideal for daily consumption and making traditional Indian snacks.</p>
-                                <div class="product-features">
-                                    <span class="feature-tag">Family Pack</span>
-                                    <span class="feature-tag">Value Pack</span>
-                                    <span class="feature-tag">Premium</span>
-                                </div>
-                                <div class="product-actions">
-                                    <div class="product-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <span>(4.9)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-            <div class="product-cardnn" data-category="mamra">
-                <img src="images/Heerak Kolhapuri Mamra 500g.webp" alt="Kolhapuri Mamra 500g" class="product-image bg-kolhapuri-mamra-500g">
-                <div class="product-content">
-                    <div class="product-category">Mamra</div>
-                    <h3 class="product-title">Kolhapuri Mamra 500g</h3>
-                    <p class="product-description">Authentic Kolhapuri style puffed rice, 500g family pack. Superior quality and traditional taste for your snacks.</p>
-                    <div class="product-features">
-                        <span class="feature-tag">Authentic</span>
-                        <span class="feature-tag">Traditional</span>
-                        <span class="feature-tag">Kolhapuri</span>
-                        <span class="feature-tag">Family Pack</span>
-                    </div>
-                    <div class="product-actions">
-                        <div class="product-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(4.8)</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product-cardnn" data-category="mamra">
-                <img src="images/Heerak Basmati Mamra 500g.webp" alt="Basmati Mamra 500g" class="product-image bg-basmati-mamra-500g">
-                <div class="product-content">
-                    <div class="product-category">Mamra</div>
-                    <h3 class="product-title">Basmati Mamra 500g</h3>
-                    <p class="product-description">Premium basmati rice puffed to perfection, 500g pack. Aromatic, delicate, and perfect for healthy snacking.</p>
-                    <div class="product-features">
-                        <span class="feature-tag">Aromatic</span>
-                        <span class="feature-tag">Premium</span>
-                        <span class="feature-tag">Basmati</span>
-                        <span class="feature-tag">Family Pack</span>
-                    </div>
-                    <div class="product-actions">
-                        <div class="product-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(4.8)</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Poha Products -->
-            <div class="product-cardnn" data-category="poha">
-                <img src="images/Heerak Rice Poha 500g.webp" alt="Potato Poha 500g" class="product-image bg-mamra-green">
+            <div class="product-cardnn" data-category="drops">
+                <img src="images/C1/C1/Bakson B-Drops.webp" alt="Bakson B-Drops" class="product-image">
                 <div class="product-content">
-                    <div class="product-category">Poha</div>
-                    <h3 class="product-title">Potato Poha 500g</h3>
-                    <p class="product-description">Thick, flattened rice flakes perfect for making delicious poha breakfast. Light, nutritious and easy to cook.</p>
+                    <div class="product-category">Drops</div>
+                    <h3 class="product-title">Bakson B-Drops</h3>
+                    <p class="product-description">Premium B-complex homeopathic drops for energy and nervous system support.</p>
                     <div class="product-features">
-                        <span class="feature-tag">Thick</span>
-                        <span class="feature-tag">Nutritious</span>
-                        <span class="feature-tag">Easy Cook</span>
-                    </div>
-                    <div class="product-actions">
-                        <div class="product-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(4.9)</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-cardnn" data-category="poha">
-                <img src="images/Heerak Poha.webp" alt="Potato Poha 1Kg" class="product-image bg-poha-lightblue">
-                <div class="product-content">
-                    <div class="product-category">Poha</div>
-                    <h3 class="product-title">Potato Poha 1Kg</h3>
-                    <p class="product-description">Family size pack of premium potato poha. Perfect for large families and regular breakfast preparation.</p>
-                    <div class="product-features">
-                        <span class="feature-tag">Family Size</span>
-                        <span class="feature-tag">Premium</span>
-                        <span class="feature-tag">Value Pack</span>
-                    </div>
-                    <div class="product-actions">
-                        <div class="product-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(4.8)</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-cardnn" data-category="poha">
-                <img src="images/Heerak Naylon Poha 500g.webp" alt="Nylon Poha 500g" class="product-image bg-poha-blue">
-                <div class="product-content">
-                    <div class="product-category">Poha</div>
-                    <h3 class="product-title">Nylon Poha 500g</h3>
-                    <p class="product-description">Extra thin and delicate poha flakes that cook quickly and absorb flavors beautifully. Perfect for quick breakfast.</p>
-                    <div class="product-features">
-                        <span class="feature-tag">Extra Thin</span>
-                        <span class="feature-tag">Quick Cook</span>
-                        <span class="feature-tag">Delicate</span>
+                        <span class="feature-tag">B-Complex</span>
+                        <span class="feature-tag">Energy</span>
+                        <span class="feature-tag">Nervous System</span>
                     </div>
                     <div class="product-actions">
                         <div class="product-rating">
@@ -282,39 +114,16 @@ Explore our premium range of products
                 </div>
             </div>
 
-            <div class="product-cardnn" data-category="poha">
-                <img src="images/Heerak Gold Maize Poha.webp" alt="Maize Poha 400g" class="product-image bg-mamra-green">
+            <div class="product-cardnn" data-category="drops">
+                <img src="images/C1/C1/Hair Aid Drops.webp" alt="Hair Aid Drops" class="product-image">
                 <div class="product-content">
-                    <div class="product-category">Poha</div>
-                    <h3 class="product-title">Maize Poha 400g</h3>
-                    <p class="product-description">Healthy corn-based poha flakes rich in fiber and nutrients. A nutritious alternative to regular rice poha.</p>
+                    <div class="product-category">Drops</div>
+                    <h3 class="product-title">Hair Aid Drops</h3>
+                    <p class="product-description">Natural homeopathic drops for hair health, promoting growth and strength.</p>
                     <div class="product-features">
-                        <span class="feature-tag">Corn Based</span>
-                        <span class="feature-tag">High Fiber</span>
-                        <span class="feature-tag">Nutritious</span>
-                    </div>
-                    <div class="product-actions">
-                        <div class="product-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(4.6)</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product-cardnn" data-category="poha">
-                <img src="images/Heerak Maize Poha.webp" alt="Maize Poha 500g" class="product-image bg-mamra-yellow">
-                <div class="product-content">
-                    <div class="product-category">Poha</div>
-                    <h3 class="product-title">Maize Poha 500g</h3>
-                    <p class="product-description">Healthy corn-based poha flakes rich in fiber and nutrients. A nutritious alternative to regular rice poha.</p>
-                    <div class="product-features">
-                        <span class="feature-tag">Corn Based</span>
-                        <span class="feature-tag">High Fiber</span>
-                        <span class="feature-tag">Nutritious</span>
+                        <span class="feature-tag">Hair Health</span>
+                        <span class="feature-tag">Growth</span>
+                        <span class="feature-tag">Strength</span>
                     </div>
                     <div class="product-actions">
                         <div class="product-rating">
@@ -329,17 +138,40 @@ Explore our premium range of products
                 </div>
             </div>
 
-            <!-- Jaggery Products -->
-            <div class="product-cardnn" data-category="jaggery">
-                <img src="images/Jaggery.webp" alt="White Jaggery 1Kg" class="product-image bg-poha-blue">
+            <div class="product-cardnn" data-category="drops">
+                <img src="images/C1/C1/SNORID DROPS.jpg" alt="Snorid Drops" class="product-image">
                 <div class="product-content">
-                    <div class="product-category">Jaggery</div>
-                    <h3 class="product-title">White Jaggery 1Kg</h3>
-                    <p class="product-description">Pure, refined white jaggery with a mild sweetness. Perfect for making sweets and traditional desserts.</p>
+                    <div class="product-category">Drops</div>
+                    <h3 class="product-title">Snorid Drops</h3>
+                    <p class="product-description">Homeopathic drops for respiratory health and breathing comfort.</p>
                     <div class="product-features">
-                        <span class="feature-tag">Pure</span>
-                        <span class="feature-tag">Refined</span>
-                        <span class="feature-tag">Traditional</span>
+                        <span class="feature-tag">Respiratory</span>
+                        <span class="feature-tag">Breathing</span>
+                        <span class="feature-tag">Comfort</span>
+                    </div>
+                    <div class="product-actions">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-cardnn" data-category="drops">
+                <img src="images/C1/C1/vitamin drops.webp" alt="Vitamin Drops" class="product-image">
+                <div class="product-content">
+                    <div class="product-category">Drops</div>
+                    <h3 class="product-title">Vitamin Drops</h3>
+                    <p class="product-description">Essential vitamin support in homeopathic form for overall nutrition and health.</p>
+                    <div class="product-features">
+                        <span class="feature-tag">Vitamins</span>
+                        <span class="feature-tag">Nutrition</span>
+                        <span class="feature-tag">Health</span>
                     </div>
                     <div class="product-actions">
                         <div class="product-rating">
@@ -354,16 +186,163 @@ Explore our premium range of products
                 </div>
             </div>
 
-            <div class="product-cardnn" data-category="jaggery">
-                <img src="images/Organic Jaggery.webp" alt="Organic Jaggery 1Kg" class="product-image bg-mamra-orange">
+            <!-- Tablets Products -->
+            <div class="product-cardnn" data-category="tablets">
+                <img src="images/C1/C1/Formula D Tablets.webp" alt="Formula D Tablets" class="product-image">
                 <div class="product-content">
-                    <div class="product-category">Jaggery</div>
-                    <h3 class="product-title">Organic Jaggery 1Kg</h3>
-                    <p class="product-description">100% organic jaggery made from natural sugarcane without any chemicals. Rich in minerals and antioxidants.</p>
+                    <div class="product-category">Tablets</div>
+                    <h3 class="product-title">Formula D Tablets</h3>
+                    <p class="product-description">Homeopathic tablets for digestive health and gastrointestinal comfort.</p>
                     <div class="product-features">
-                        <span class="feature-tag">100% Organic</span>
-                        <span class="feature-tag">Chemical Free</span>
-                        <span class="feature-tag">Rich Minerals</span>
+                        <span class="feature-tag">Digestive</span>
+                        <span class="feature-tag">Gastrointestinal</span>
+                        <span class="feature-tag">Comfort</span>
+                    </div>
+                    <div class="product-actions">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.7)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-cardnn" data-category="tablets">
+                <img src="images/C1/C1/OSTEOFIT TABLET.jpg" alt="Osteofit Tablet" class="product-image">
+                <div class="product-content">
+                    <div class="product-category">Tablets</div>
+                    <h3 class="product-title">Osteofit Tablet</h3>
+                    <p class="product-description">Homeopathic tablets for bone health and joint support.</p>
+                    <div class="product-features">
+                        <span class="feature-tag">Bone Health</span>
+                        <span class="feature-tag">Joint Support</span>
+                        <span class="feature-tag">Strength</span>
+                    </div>
+                    <div class="product-actions">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.6)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ointments Products -->
+            <div class="product-cardnn" data-category="ointment">
+                <img src="images/C1/C1/DERMA PLUS OINTMENT.jpg" alt="Derma Plus Ointment" class="product-image">
+                <div class="product-content">
+                    <div class="product-category">Ointment</div>
+                    <h3 class="product-title">Derma Plus Ointment</h3>
+                    <p class="product-description">Homeopathic ointment for skin health and dermatological conditions.</p>
+                    <div class="product-features">
+                        <span class="feature-tag">Skin Health</span>
+                        <span class="feature-tag">Dermatological</span>
+                        <span class="feature-tag">Topical</span>
+                    </div>
+                    <div class="product-actions">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-cardnn" data-category="ointment">
+                <img src="images/C1/C1/Graphites Ointment.webp" alt="Graphites Ointment" class="product-image">
+                <div class="product-content">
+                    <div class="product-category">Ointment</div>
+                    <h3 class="product-title">Graphites Ointment</h3>
+                    <p class="product-description">Traditional homeopathic ointment for skin conditions and healing.</p>
+                    <div class="product-features">
+                        <span class="feature-tag">Traditional</span>
+                        <span class="feature-tag">Healing</span>
+                        <span class="feature-tag">Skin Care</span>
+                    </div>
+                    <div class="product-actions">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.7)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-cardnn" data-category="ointment">
+                <img src="images/C1/C1/H.A.P. OINTMENT.jpg" alt="H.A.P. Ointment" class="product-image">
+                <div class="product-content">
+                    <div class="product-category">Ointment</div>
+                    <h3 class="product-title">H.A.P. Ointment</h3>
+                    <p class="product-description">Specialized homeopathic ointment for targeted therapeutic applications.</p>
+                    <div class="product-features">
+                        <span class="feature-tag">Specialized</span>
+                        <span class="feature-tag">Therapeutic</span>
+                        <span class="feature-tag">Targeted</span>
+                    </div>
+                    <div class="product-actions">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.6)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-cardnn" data-category="ointment">
+                <img src="images/C1/C1/Rheum Aid Gel.webp" alt="Rheum Aid Gel" class="product-image">
+                <div class="product-content">
+                    <div class="product-category">Ointment</div>
+                    <h3 class="product-title">Rheum Aid Gel</h3>
+                    <p class="product-description">Homeopathic gel for rheumatic conditions and joint pain relief.</p>
+                    <div class="product-features">
+                        <span class="feature-tag">Rheumatic</span>
+                        <span class="feature-tag">Joint Pain</span>
+                        <span class="feature-tag">Relief</span>
+                    </div>
+                    <div class="product-actions">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.8)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dilution Products -->
+            <div class="product-cardnn" data-category="dilution">
+                <img src="images/C1/C1/Dilution 1M.webp" alt="Dilution 1M" class="product-image">
+                <div class="product-content">
+                    <div class="product-category">Dilution</div>
+                    <h3 class="product-title">Dilution 1M</h3>
+                    <p class="product-description">High potency homeopathic dilution for acute and chronic conditions.</p>
+                    <div class="product-features">
+                        <span class="feature-tag">High Potency</span>
+                        <span class="feature-tag">Acute</span>
+                        <span class="feature-tag">Chronic</span>
                     </div>
                     <div class="product-actions">
                         <div class="product-rating">
@@ -381,19 +360,14 @@ Explore our premium range of products
     </div>
 
     <!-- Footer -->
-
     <div class="footer Section">
         <div class="container">
             <!-- Left Section -->
             <div class="details">
                 <div class="company">
-                    <img src="images/logo.webp" alt="heerakfood">
-                    <h6>Shri Hari Traders</h6>
-                    <div class="social-icons">
-                        <!-- <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a> -->
-                        <a href="https://www.instagram.com/heerakfoods/" class="gradient-icon"><i
-                                class="fab fa-instagram"></i></a>
+                    <div class="navbar-logo">
+                        <span class="fw-bold fs-3 fs-md-1">Parmanand Sheth & Co.</span>
+                        <span class="fst-italic text-secondary fs-6 fs-md-5">Homoeopathic Stockist</span>
                     </div>
                 </div>
 
@@ -402,47 +376,36 @@ Explore our premium range of products
                     <!-- Product Column -->
                     <div class="column">
                         <h6>Products</h6>
-                        <a href="products.html">Mamra</a>
-                        <a href="products.html">Poha</a>
-                        <a href="products.html">Jaggery</a>
+                        <a href="products.html">Mothertincture</a>
+                        <a href="products.html">Dilution</a>
+                        <a href="products.html">Tablets</a>
+                        <a href="products.html">Drops</a>
+                        <a href="products.html">Biochemic</a>
+                        <a href="products.html">Biochemic - Combinations</a>
+                        <a href="products.html">Cosmetics</a>
                     </div>
-
-                    <!-- Company Column -->
-                    <div class="column">
-                        <h6>Company</h6>
-                        <a href="contact.html">Contact Us</a>
-                        <a href="contact.html">Apply for Distribution</a>
-                    </div>
-
                     <!-- Contact Column -->
                     <div class="column">
                         <h6>Contact</h6>
-                        <b>Customer Care:</b> <a href="tel:+919727724404" class="tel-link">+91 97277 24404</a>
-
-                        <b>Trade Inquiry:</b> <a href="tel:+919099024404" class="tel-link">+91 90990 24404</a>
-
-                        <b>Email:</b> shriharitradersheerak2010@gmail.com
+                        <span>
+                            <b>Trade Inquiry:</b> <a href="tel:+919825021680" class="tel-link">+91 98250 21680</a>
+                            <b>Email:</b> Parmanandsheth@gmail.com
+                        </span>
                     </div>
-
                     <!-- Address Column -->
                     <div class="column address">
-                        <h6>Ahmedabad Plant</h6>
-                        <p>Farm, Beside Aiiyapa Temple, Vasna, Ahmedabad, Gujarat - 380007</p>
-                        <a href="https://maps.app.goo.gl/XawRA24i62MdGEcj7">Get Location</a>
+                        <h6>Our Address</h6>
+                        <p>1776, Near HDFC Bank, Gandhi Road, Ahmedabad -380001</p>
+                        <a href="https://maps.app.goo.gl/A7dygQB2RXtKekcj9">Get Location</a>
                     </div>
                 </div>
             </div>
         </div>
-
         <!-- Copyright Section -->
         <div class="copyright">
-            Copyright © 2025 Shri Hari Traders. All rights reserved.
+            Copyright © 2025 Paramanand Sheth & Co. All rights reserved.
         </div>
     </div>
-
-    <!-- <footer class="copyright">
-        <p>&copy; 2025 Food Products. All rights reserved.</p>
-    </footer> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
